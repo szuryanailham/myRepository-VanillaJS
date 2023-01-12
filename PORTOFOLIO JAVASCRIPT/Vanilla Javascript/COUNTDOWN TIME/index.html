@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Time</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Countdown Deadline</h1>
+        <div class="coloums-1">
+          <input type="text" pattern="\d*" id="year" placeholder="Year..." class="coloum-one" />
+          <input type="text" pattern="\d*" id="mount" placeholder="Mounth..." class="coloum-one" />
+          <input type="text" pattern="\d*" id="date" placeholder="Date.." class="coloum-one" />
+        </div>
+        <div class="coloums2">
+          <input type="text" id="hour" placeholder="hour.." class="coloum-two" />
+          <input type="text" id="minute" placeholder="minute.." class="coloum-two" />
+        </div>
+
+        <div class="coloums3">
+          <input type="text" id="agenda" placeholder="your agenda.." class="coloum-three" />
+          <button type="submit" class="btn-submit">Submit</button>
+          <p class="text-agenda"></p>
+          <h4 class="remainder"></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-box">
+      <div class="box_timer">
+        <h1></h1>
+        <p>Day</p>
+      </div>
+      <div class="box_timer">
+        <h1></h1>
+        <p>Hour</p>
+      </div>
+      <div class="box_timer">
+        <h1></h1>
+        <p>minute</p>
+      </div>
+      <div class="box_timer">
+        <h1></h1>
+        <p>second</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

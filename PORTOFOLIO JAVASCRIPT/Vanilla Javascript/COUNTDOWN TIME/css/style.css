@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100&display=swap");
+/* HOME */
+/* container */
+/* Countdown deadline */
+/* coloum-1 */
+/* colom-2 */
+/* colom-3 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1";
+  width: 1280px;
+  height: 832px;
+  background-color: #273877;
+}
+body .container {
+  width: 798px;
+  height: 528px;
+  top: 116px;
+  margin: auto;
+}
+body .container .title {
+  width: 482px;
+  height: 79px;
+  left: 359px;
+  top: 116px;
+  margin: auto;
+}
+body .container .title h1 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 70px;
+  color: #ffffff;
+}
+body .container .coloum-one {
+  width: 120px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-left: 15px;
+  border: none;
+  padding: 5px;
+}
+body .container .coloums2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container .coloum-two {
+  width: 120px;
+  height: 40px;
+  background-color: #d9d9d9;
+  top: 411px;
+  left: 359px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: none;
+  padding: 5px;
+}
+body .container .coloum-one,
+body .container .coloum-two,
+body .container .coloum-three:focus {
+  outline: none;
+  border: none;
+}
+body .container .coloums3 {
+  margin: 30px 0 0 0;
+}
+body .container .coloums3 p {
+  text-align: center;
+  color: white;
+}
+body .container .coloums3 .coloum-three {
+  width: 500px;
+  height: 35px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+body .container .coloums3 .btn-submit {
+  box-sizing: border-box;
+  position: absolute;
+  border: none;
+  margin: 10px 0;
+  width: 100px;
+  height: 48px;
+  background: #33a318;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  top: 291px;
+  left: 820px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+body .container .coloums3 .btn-submit:active {
+  outline: none;
+  background-color: rgb(5, 42, 10);
+}
+body .container-box {
+  width: 700px;
+  height: 100px;
+  margin: -100px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container-box .box_timer {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+body .container-box .box_timer h1 {
+  text-align: center;
+  font-weight: bold;
+}
+body .container-box .box_timer p {
+  margin-top: -15px;
+  text-align: center;
+  font-weight: bold;
+}
+body .notive {
+  display: none;
+  text-align: center;
+  color: #33a318;
+  font-size: 35px;
+}
+body .input-error {
+  outline: 1px solid red;
+}
+
+.alert {
+  text-align: center;
+  color: rgb(227, 227, 15);
+}
+
+.remainder {
+  text-align: center;
+  color: rgb(227, 227, 15);
+}/*# sourceMappingURL=style.css.map */

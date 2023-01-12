@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100&display=swap");
+/* HOME */
+$home-width: 1280px;
+$home-height: 832px;
+$font-family: "M PLUS 1";
+$home-background: #273877;
+
+/* container */
+$container-width: 798px;
+$container-height: 528px;
+$container-top: 116px;
+
+/* Countdown deadline */
+
+$title-width: 482px;
+$title-height: 79px;
+$title-left: 359px;
+$title-top: 116px;
+
+$title-font-weight: 300;
+$title-font-size: 48px;
+$title-line-height: 70px;
+
+$title-color: #ffffff;
+
+/* coloum-1 */
+$coloum1-width: 120px;
+$coloum1-height: 40px;
+$coloum1-left: 232px;
+$coloum1-top: 239px;
+
+$coloum1-background: #d9d9d9;
+$coloum1-border-radius: 10px;
+
+/* colom-2 */
+$coloum2-width: 276px;
+$coloum2-height: 69px;
+$coloum2-left: 200px;
+$coloum2-top: 411px;
+
+/* colom-3 */
+
+$coloum3-width: 500px;
+$coloum3-height: 35px;
+$coloum3-left: 219px;
+$coloum3-top: 575px;
+
+// ============ BEGIN CODE ================
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  width: $home-width;
+  height: $home-height;
+  background-color: $home-background;
+
+  .container {
+    width: $container-width;
+    height: $container-height;
+    top: $container-top;
+    margin: auto;
+
+    .title {
+      width: $title-width;
+      height: $title-height;
+      left: $title-left;
+      top: $title-top;
+      margin: auto;
+      h1 {
+        font-weight: $title-font-weight;
+        font-size: $title-font-size;
+        line-height: $title-line-height;
+        color: $title-color;
+      }
+    }
+    .coloum-one {
+      width: $coloum1-width;
+      height: $coloum1-height;
+      background-color: $coloum1-background;
+      border-radius: $coloum1-border-radius;
+      margin-left: 15px;
+      border: none;
+      padding: 5px;
+    }
+    .coloums2 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .coloum-two {
+      width: $coloum1-width;
+      height: $coloum1-height;
+      background-color: $coloum1-background;
+      top: $coloum2-top;
+      left: $title-left;
+      border-radius: $coloum1-border-radius;
+      margin: 20px 0;
+      border: none;
+      padding: 5px;
+    }
+    .coloum-one,
+    .coloum-two,
+    .coloum-three:focus {
+      outline: none;
+      border: none;
+    }
+
+    .coloums3 {
+      margin: 30px 0 0 0;
+      p {
+        text-align: center;
+        color: white;
+      }
+      .coloum-three {
+        width: $coloum3-width;
+        height: $coloum3-height;
+        background-color: $coloum1-background;
+        border-radius: $coloum1-border-radius;
+        border: none;
+        padding: 5px;
+      }
+      .btn-submit {
+        box-sizing: border-box;
+        position: absolute;
+        border: none;
+        margin: 10px 0;
+        width: 100px;
+        height: 48px;
+        background: #33a318;
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+        top: 291px;
+        left: 820px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      .btn-submit:active {
+        // box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+        outline: none;
+        background-color: rgb(5, 42, 10);
+      }
+    }
+  }
+  .container-box {
+    // visibility: hidden;
+    width: 700px;
+    height: 100px;
+    margin: -100px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    .box_timer {
+      width: 100px;
+      height: 100px;
+      background-color: #d9d9d9;
+      border-radius: 10px;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+      }
+      p {
+        margin-top: -15px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .notive {
+    display: none;
+    text-align: center;
+    color: #33a318;
+    font-size: 35px;
+  }
+  .input-error {
+    outline: 1px solid red;
+  }
+}
+.alert {
+  text-align: center;
+  color: rgb(227, 227, 15);
+  // visibility: hidden;
+}
+.remainder {
+  // margin-top: -20px;
+  text-align: center;
+  color: rgb(227, 227, 15);
+}
